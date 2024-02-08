@@ -417,19 +417,20 @@ Sara Jade interviewed by Jim
     )
 
     static let sessions = [
+        sessionBreakfast,
         sessionOpeningCeremony,
         sessionWavLake,
-        sessionPuraVida,
-        sessionSaraJade,
+        sessionPurpleReign,
+        sessionNostrTheDawnOfCyberspace,
         sessionLunch,
         sessionTheCreatorEcosystemVision,
         sessionHowNostrPowersDevelopersAndMarketplaces,
         sessionJimCostello,
-        sessionPurpleReign,
-        sessionNostrTheDawnOfCyberspace,
+        sessionPuraVida,
         sessionNostrBuildersPanel,
-        sessionClosingCeremony,
-        sessionLivePerformance
+        sessionSaraJade,
+        sessionLivePerformance,
+        sessionClosingCeremony
     ]
 
     static let organizers = [
