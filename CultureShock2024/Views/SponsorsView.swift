@@ -20,6 +20,7 @@ struct SponsorsView: View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .frame(maxWidth: 100, maxHeight: 100)
+                                .background(.black)
                         }
                         Link(sponsor.name, destination: sponsor.url)
                     }
