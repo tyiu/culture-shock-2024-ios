@@ -16,6 +16,7 @@ enum NostrClient: String, CaseIterable, Identifiable {
         var displayName: String
         var description: String
         var link: String
+        var image: String
     }
 
     init?(from string: String) {
@@ -35,17 +36,17 @@ enum NostrClient: String, CaseIterable, Identifiable {
     var model: Model {
         switch self {
         case .current:
-            return .init(tag: "current", displayName: "Current", description: "A client that comes with a built-in Bitcoin wallet.", link: "https://app.getcurrent.io/")
+            return .init(tag: "current", displayName: "Current", description: "A client that comes with a built-in Bitcoin wallet.", link: "https://app.getcurrent.io/", image: "current")
         case .damus:
-            return .init(tag: "damus", displayName: "Damus", description: "The first Nostr client to be banned in China.", link: "https://damus.io/")
+            return .init(tag: "damus", displayName: "Damus", description: "The first Nostr client to be banned in China.", link: "https://damus.io/", image: "damus")
         case .nos:
-            return .init(tag: "nos", displayName: "Nos", description: "a beautiful and safe client for non-bitcoiners.", link: "https://nos.social/")
+            return .init(tag: "nos", displayName: "Nos", description: "a beautiful and safe client for non-bitcoiners.", link: "https://nos.social/", image: "nos")
         case .nostur:
-            return .init(tag: "nostur", displayName: "Nostur", description: "A feature-complete client.", link: "https://nostur.com/")
+            return .init(tag: "nostur", displayName: "Nostur", description: "A feature-complete client.", link: "https://nostur.com/", image: "nostur")
         case .plebstr:
-            return .init(tag: "plebstr", displayName: "Plebstr", description: "A closed-source client that is beautiful, fast and smooth.", link: "https://plebstr.com/")
+            return .init(tag: "plebstr", displayName: "Plebstr", description: "A closed-source client that is beautiful, fast and smooth.", link: "https://plebstr.com/", image: "plebstr")
         case .primal:
-            return .init(tag: "primal", displayName: "Primal", description: "A very fast client that relies on server-side caching.", link: "https://primal.net/downloads")
+            return .init(tag: "primal", displayName: "Primal", description: "A very fast client that relies on server-side caching.", link: "https://primal.net/downloads", image: "primal")
         }
     }
 }

@@ -16,6 +16,11 @@ struct TryNostrView: View {
                     .padding(.bottom, 20)
 
                 ForEach(NostrClient.allCases.shuffled()) { nostrClient in
+                    Image(nostrClient.model.image)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(maxWidth: 50, maxHeight: 50)
+
                     if let url = URL(string: nostrClient.model.link) {
                         Link(nostrClient.model.displayName, destination: url)
                             .buttonStyle(.bordered)
