@@ -99,6 +99,16 @@ Pleb Lab Co-Founder  & Thriller Zine
         lightningIdentifier: "thrillerx_@getalby.com"
     )
 
+    static let cyn = Person(
+        nostrPublicKey: "",
+        name: "Cyn Rae",
+        description:
+"""
+""",
+        picture: "cyn",
+        lightningIdentifier: "durablefeeling54@walletofsatoshi.com"
+    )
+
     static let erik = Person(
         nostrPublicKey: "npub1aesr9ql7h3xrrvyeqvujgz9zllca4a56cgjy5hj26plv5w78nhkq2m0d2r",
         name: "Erik",
@@ -186,6 +196,17 @@ Community Builder & Plebchain Radio
         lightningIdentifier: "qdub@getalby.com"
     )
 
+    static let santos = Person(
+        nostrPublicKey: "npub1fkvjh50p9amcvce5eclalcszqduehlhmsjm76hx3zy5sx3g40ddqqednwk",
+        name: "Santos",
+        description:
+"""
+VP Business Intelligence @ ZBD
+""",
+        picture: "santos",
+        lightningIdentifier: "sats@zbd.gg"
+    )
+
     static let tyiu = Person(
         nostrPublicKey: "npub1yaul8k059377u9lsu67de7y637w4jtgeuwcmh5n7788l6xnlnrgs3tvjmf",
         name: "Terry Yiu",
@@ -194,21 +215,11 @@ Community Builder & Plebchain Radio
         lightningIdentifier: "tyiu@tyiu.xyz"
     )
 
-    static let zantoshi = Person(
-        nostrPublicKey: "npub1fkvjh50p9amcvce5eclalcszqduehlhmsjm76hx3zy5sx3g40ddqqednwk",
-        name: "Zantoshi",
-        description:
-"""
-VP Business Intelligence @ ZBD
-""",
-        picture: "zantoshi",
-        lightningIdentifier: "sats@zbd.gg"
-    )
-
     static let sessionBreakfast = Session(
         id: "breakfast",
         name: "Breakfast",
         speakers: [
+            cyn,
             heidi
         ],
         startTime: isoDateFormatter.date(from: "2024-02-17T09:00:00-07:00")!,
@@ -225,7 +236,7 @@ VP Business Intelligence @ ZBD
         speakers: [
             samMeans,
             qw,
-            zantoshi,
+            santos,
             heidi
         ],
         startTime: isoDateFormatter.date(from: "2024-02-17T10:00:00-07:00")!,
@@ -282,9 +293,10 @@ VP Business Intelligence @ ZBD
 
     static let sessionLunch = Session(
         id: "lunch",
-        name: "Heidi's Lunch",
+        name: "Lunch",
         speakers: [
-            heidi
+            heidi,
+            cyn
         ],
         startTime: isoDateFormatter.date(from: "2024-02-17T12:00:00-07:00")!,
         endTime: isoDateFormatter.date(from: "2024-02-17T12:50:00-07:00")!,
@@ -298,7 +310,7 @@ VP Business Intelligence @ ZBD
         id: "the-creator-ecosystem-vision",
         name: "The Creator Ecosystem Vision",
         speakers: [
-            zantoshi
+            santos
         ],
         startTime: isoDateFormatter.date(from: "2024-02-17T13:00:00-07:00")!,
         endTime: isoDateFormatter.date(from: "2024-02-17T13:25:00-07:00")!,
@@ -405,7 +417,7 @@ Sara Jade interviewed by Jim
         speakers: [
             samMeans,
             qw,
-            zantoshi,
+            santos,
             heidi
         ],
         startTime: isoDateFormatter.date(from: "2024-02-17T16:30:00-07:00")!,
@@ -437,10 +449,11 @@ Sara Jade interviewed by Jim
         heidi,
         qw,
         samMeans,
-        zantoshi
+        santos
     ]
 
     static let volunteers = [
+        cyn,
         tyiu
     ]
 
