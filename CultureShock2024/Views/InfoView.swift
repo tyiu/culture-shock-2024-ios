@@ -157,6 +157,17 @@ The first Value 4 Value cultural event in Downtown Phoenix. We will showcase the
                 .overlay(Color.init(red: 242 / 255, green: 166 / 255, blue: 59 / 255))
                 .padding(20)
 
+            if let url = URL(string: "https://comingle.co/") {
+                Button(
+                    action: { UIApplication.shared.open(url) },
+                    label: {
+                        Image("comingle")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                    }
+                )
+            }
+
             Text("This Culture Shock 2024 app was built by Terry Yiu (tyiu) to reimagine conference apps in a Nostr world. This work is being used to inspire Comingle, a general-purpose Nostr conference app, powered by NIP-52 calendar events. If you have feedback, please message him. He can be found on the People > Volunteers page of the app.")
         }
         .padding(20)
