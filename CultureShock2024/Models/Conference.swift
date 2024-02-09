@@ -16,4 +16,6 @@ struct Conference: Hashable {
     let sessions: [Session]
     let organizers: [Person]
     let volunteers: [Person]
+    let vendors: [Person]
+    let sponsors: [Sponsor]
 }

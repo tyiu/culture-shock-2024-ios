@@ -40,12 +40,15 @@ struct ConferenceView: View {
                 Label("People", systemImage: "person")
             }
 
-            SponsorsView(
-                sponsors: SponsorsView_Previews.sponsors
-            )
-            .tabItem {
-                Label("Sponsors", systemImage: "heart")
-            }
+            VendorsView(vendors: conference.vendors)
+                .tabItem {
+                    Label("Vendors", systemImage: "storefront")
+                }
+
+            SponsorsView(sponsors: conference.sponsors)
+                .tabItem {
+                    Label("Sponsors", systemImage: "heart")
+                }
         }
         .navigationTitle(conference.name)
     }
@@ -63,7 +66,9 @@ struct ConferenceView_Previews: PreviewProvider {
         timeZone: TimeZone(identifier: "America/Phoenix") ?? TimeZone.current,
         sessions: sessions,
         organizers: organizers,
-        volunteers: volunteers
+        volunteers: volunteers,
+        vendors: vendors,
+        sponsors: sponsors
     )
 
     static let arkinox = Person(
@@ -455,6 +460,40 @@ Sara Jade interviewed by Jim
     static let volunteers = [
         cyn,
         tyiu
+    ]
+
+    static let vendorBitcoinDiscGolf = Person(
+        nostrPublicKey: "npub1l29vfc35qhrgja3cwt2gha2j4hklvs0lszhrr362y05nyqzy4zjs43qeya",
+        name: "BitcoinDiscGolf",
+        description:
+"""
+""",
+        picture: "bitcoin-disc-golf",
+        lightningIdentifier: "noisybear1@primal.net"
+    )
+
+    static let vendorLightningStore = Person(
+        nostrPublicKey: "npub1eequz6v23szzyx9utphsh8kg6kll50wte6sfh4vah8gdjtplcz6qg7at9s",
+        name: "Lightning Store",
+        description:
+"""
+""",
+        picture: "ltngstore",
+        lightningIdentifier: "ltngstore@getalby.com"
+    )
+
+    static let vendors = [
+        vendorBitcoinDiscGolf,
+        vendorLightningStore
+    ]
+
+    static let sponsors = [
+        Sponsor(name: "Wavlake", picture: "wavlake", url: URL(string: "https://wavlake.com/")!),
+        Sponsor(name: "ZBD", picture: "zbd", url: URL(string: "https://zbd.gg/")!),
+        Sponsor(name: "emeralize", picture: "emeralize", url: URL(string: "https://emeralize.app/")!),
+        Sponsor(name: "Plebchain Radio", picture: "plebchain-radio", url: URL(string: "https://fountain.fm/show/0N6GGdZuYNNG7ysagCg9")!),
+        Sponsor(name: "Lightning Store", picture: "lightning-store", url: URL(string: "https://lightning.store/")!),
+        Sponsor(name: "Hello Lincoln", picture: "hello-lincoln", url: URL(string: "https://850wlincoln.com/")!)
     ]
 
     static var previews: some View {

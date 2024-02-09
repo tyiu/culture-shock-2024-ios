@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1BF1672B75E0EC00ACF17F /* VendorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BF1662B75E0EC00ACF17F /* VendorsView.swift */; };
 		3A3623F22B75507B00555C0F /* SponsorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3623F12B75507B00555C0F /* SponsorsView.swift */; };
 		3A3623F42B7550A100555C0F /* Sponsor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3623F32B7550A100555C0F /* Sponsor.swift */; };
 		3A453DDC2A0B348100897303 /* CultureShock2024App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A453DDB2A0B348100897303 /* CultureShock2024App.swift */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A1BF1662B75E0EC00ACF17F /* VendorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorsView.swift; sourceTree = "<group>"; };
 		3A3623F12B75507B00555C0F /* SponsorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SponsorsView.swift; sourceTree = "<group>"; };
 		3A3623F32B7550A100555C0F /* Sponsor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sponsor.swift; sourceTree = "<group>"; };
 		3A453DD82A0B348100897303 /* CultureShock2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CultureShock2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +204,7 @@
 				3A3623F12B75507B00555C0F /* SponsorsView.swift */,
 				3A5564822AF76D6D000674E6 /* TipView.swift */,
 				3A900B472AFC3D6D00FC6657 /* TryNostrView.swift */,
+				3A1BF1662B75E0EC00ACF17F /* VendorsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				3A3623F22B75507B00555C0F /* SponsorsView.swift in Sources */,
 				3A55647E2AF75E11000674E6 /* String+Hex.swift in Sources */,
 				3A453E242A0C614900897303 /* SessionView.swift in Sources */,
+				3A1BF1672B75E0EC00ACF17F /* VendorsView.swift in Sources */,
 				3A3623F42B7550A100555C0F /* Sponsor.swift in Sources */,
 				3A55646D2AF6B4D1000674E6 /* InfoView.swift in Sources */,
 				3A5564772AF70501000674E6 /* Bech32.swift in Sources */,
