@@ -462,14 +462,37 @@ Sara Jade interviewed by Jim
         tyiu
     ]
 
+    static let vendorBitcoinCartoons = Person(
+        nostrPublicKey: "npub18qqmsypsyvvjq23aa428fm50cjz2patdcxp2f68wnccv03kpfy2syk70fa",
+        name: "Bitcoin Cartoons",
+        description:
+"""
+Slumberjack - The #Bitcoin Cartoonist. DM if interested in a commission!
+""",
+        picture: "bitcoin-cartoons",
+        lightningIdentifier: "BitcoinCartoons@getalby.com"
+    )
+
     static let vendorBitcoinDiscGolf = Person(
         nostrPublicKey: "npub1l29vfc35qhrgja3cwt2gha2j4hklvs0lszhrr362y05nyqzy4zjs43qeya",
         name: "BitcoinDiscGolf",
         description:
 """
+Disc Golf | Bitcoin | Lightening | Nostr
 """,
         picture: "bitcoin-disc-golf",
         lightningIdentifier: "noisybear1@primal.net"
+    )
+
+    static let vendorHelloMerch = Person(
+        nostrPublicKey: "npub1d3dp8hqkwsah34qluy7ragu34hykufqt0qa4a2tfgydafd6yz0eq4je96c",
+        name: "Hello Merch",
+        description:
+"""
+Independent Band Merch
+""",
+        picture: "hello-merch",
+        lightningIdentifier: "hello@nodesbrigade.com"
     )
 
     static let vendorLightningStore = Person(
@@ -477,13 +500,16 @@ Sara Jade interviewed by Jim
         name: "Lightning Store",
         description:
 """
+Obscure Bitcoin pop cult/punk mashups ⛓⚡️🥴✌️❤️ Working at Wavlake ⚡️🎵 Upload wavlake.com/studio Zap app.wavlake.com
 """,
         picture: "ltngstore",
         lightningIdentifier: "ltngstore@getalby.com"
     )
 
     static let vendors = [
+        vendorBitcoinCartoons,
         vendorBitcoinDiscGolf,
+        vendorHelloMerch,
         vendorLightningStore
     ]
 
