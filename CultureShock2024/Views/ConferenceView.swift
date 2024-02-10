@@ -105,7 +105,7 @@ Pleb Lab Co-Founder  & Thriller Zine
     )
 
     static let cyn = Person(
-        nostrPublicKey: "",
+        nostrPublicKey: "npub1mhl2252mn9psk6yhf657zt3tgehnm2gw2j7qkgm5r8h7hvs4r0vqy6xmlv",
         name: "Cyn Rae",
         description:
 """
