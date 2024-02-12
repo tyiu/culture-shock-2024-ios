@@ -157,6 +157,16 @@ Wavlake Co-Founder
         lightningIdentifier: "rheedi0@stacker.news"
     )
 
+    static let michaelRivera = Person(
+        nostrPublicKey: "",
+        name: "Michael Rivera",
+        description:
+"""
+""",
+        picture: "michael-rivera",
+        lightningIdentifier: ""
+    )
+
     static let openMike = Person(
         nostrPublicKey: "npub1a6c3jcdj23ptzcuflek8a04f4hc2cdkat95pd6n3r8jjrwyzrw0q43lfrr",
         name: "OpenMike",
@@ -210,6 +220,16 @@ VP Business Intelligence @ ZBD
 """,
         picture: "santos",
         lightningIdentifier: "sats@zbd.gg"
+    )
+
+    static let swoletoshi = Person(
+        nostrPublicKey: "",
+        name: "Swoletoshi Nakabroto",
+        description:
+"""
+""",
+        picture: "swoletoshi-nakabroto",
+        lightningIdentifier: ""
     )
 
     static let tyiu = Person(
