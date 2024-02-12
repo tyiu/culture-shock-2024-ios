@@ -479,6 +479,8 @@ Sara Jade interviewed by Jim
 
     static let volunteers = [
         cyn,
+        michaelRivera,
+        swoletoshi,
         tyiu
     ]
 
