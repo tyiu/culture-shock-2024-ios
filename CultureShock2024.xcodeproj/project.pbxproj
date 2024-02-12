@@ -557,7 +557,7 @@
 				CODE_SIGN_ENTITLEMENTS = CultureShock2024/CultureShock2024.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CultureShock2024/Preview Content\"";
 				DEVELOPMENT_TEAM = S99A5B637C;
@@ -601,7 +601,7 @@
 				CODE_SIGN_ENTITLEMENTS = CultureShock2024/CultureShock2024.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CultureShock2024/Preview Content\"";
 				DEVELOPMENT_TEAM = S99A5B637C;
