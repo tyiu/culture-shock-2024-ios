@@ -158,13 +158,13 @@ Wavlake Co-Founder
     )
 
     static let michaelRivera = Person(
-        nostrPublicKey: "",
+        nostrPublicKey: "npub1pfjyvf4kuk6d5zn5f6082qk94py6q2vr00cslujxwnexslvdn37ssxjkpd",
         name: "Michael Rivera",
         description:
 """
 """,
         picture: "michael-rivera",
-        lightningIdentifier: ""
+        lightningIdentifier: "MikeRivera@zbd.gg"
     )
 
     static let openMike = Person(
@@ -223,13 +223,13 @@ VP Business Intelligence @ ZBD
     )
 
     static let swoletoshi = Person(
-        nostrPublicKey: "",
+        nostrPublicKey: "npub1wc6n9zht5ez8m2r2rdkdqcyzxfcccpz52jrplj0f3apjamtxaqfqfuhdna",
         name: "Swoletoshi Nakabroto",
         description:
 """
 """,
         picture: "swoletoshi-nakabroto",
-        lightningIdentifier: ""
+        lightningIdentifier: "soberswallow02@walletofsatoshi.com"
     )
 
     static let tyiu = Person(
