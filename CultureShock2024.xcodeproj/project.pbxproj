@@ -35,7 +35,6 @@
 		3A5564832AF76D6D000674E6 /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5564822AF76D6D000674E6 /* TipView.swift */; };
 		3A900B442AFC241400FC6657 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A900B432AFC241400FC6657 /* HelpView.swift */; };
 		3A900B462AFC39E900FC6657 /* NostrClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A900B452AFC39E900FC6657 /* NostrClient.swift */; };
-		3A900B482AFC3D6D00FC6657 /* TryNostrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A900B472AFC3D6D00FC6657 /* TryNostrView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,7 +88,6 @@
 		3A5564822AF76D6D000674E6 /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
 		3A900B432AFC241400FC6657 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		3A900B452AFC39E900FC6657 /* NostrClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NostrClient.swift; sourceTree = "<group>"; };
-		3A900B472AFC3D6D00FC6657 /* TryNostrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryNostrView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,7 +203,6 @@
 				3A55646E2AF6B4DD000674E6 /* SettingsView.swift */,
 				3A3623F12B75507B00555C0F /* SponsorsView.swift */,
 				3A5564822AF76D6D000674E6 /* TipView.swift */,
-				3A900B472AFC3D6D00FC6657 /* TryNostrView.swift */,
 				3A1BF1662B75E0EC00ACF17F /* VendorsView.swift */,
 			);
 			path = Views;
@@ -391,7 +388,6 @@
 				3A55646D2AF6B4D1000674E6 /* InfoView.swift in Sources */,
 				3A5564772AF70501000674E6 /* Bech32.swift in Sources */,
 				3A453E1A2A0C613600897303 /* Person.swift in Sources */,
-				3A900B482AFC3D6D00FC6657 /* TryNostrView.swift in Sources */,
 				3A453E252A0C614900897303 /* ScheduleView.swift in Sources */,
 				3A900B442AFC241400FC6657 /* HelpView.swift in Sources */,
 				3A55647B2AF73F99000674E6 /* Data+Encoding.swift in Sources */,

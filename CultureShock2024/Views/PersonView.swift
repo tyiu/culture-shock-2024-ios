@@ -77,8 +77,8 @@ struct PersonView: View {
                             Label(lightningIdentifier, systemImage: "doc.on.doc")
                         }
                     }
-                } else if let walletToDownload, let appStoreLink = walletToDownload.appStoreLink, let appStoreUrl = URL(string: appStoreLink) {
-                    Link("⚡️ Install \(walletToDownload.displayName) to tip", destination: appStoreUrl)
+                } else {
+                    Button("⚡️ No Lightning wallet app installed to tip") {}
                         .buttonStyle(.bordered)
                         .contextMenu {
                             Button {

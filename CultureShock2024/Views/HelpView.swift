@@ -13,11 +13,11 @@ struct HelpView: View {
             Text("Nostr is a simple, open protocol that enables truly censorship-resistant and global value-for-value publishing on the web.")
                 .padding(.bottom, 20)
 
-            NavigationLink(destination: TryNostrView()) {
-                Text("Try Nostr!")
+            if let url = URL(string: "https://nostr.com/") {
+                Link("Visit Nostr.com to learn more!", destination: url)
+                    .buttonStyle(.bordered)
+                    .padding(.bottom, 20)
             }
-            .buttonStyle(.bordered)
-            .padding(.bottom, 20)
 
             Text("What is Nostr?")
                 .bold()
